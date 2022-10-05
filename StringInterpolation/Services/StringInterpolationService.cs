@@ -107,7 +107,8 @@ public class StringInterpolationService : IStringInterpolationService
 
     public string Number11()
     {
-        var answer = $"{Math.PI:P}";
+        var date = _date.Now.Year;
+        var answer = $"{date:X4}";
         Console.WriteLine(answer);
 
         return answer;

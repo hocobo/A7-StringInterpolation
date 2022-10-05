@@ -105,6 +105,6 @@ public class StringInterpolationServiceTests
     {
         var response = _service.Number11();
         
-        Assert.Equal("314.16%",response);
+        Assert.Equal("07E6",response);
     }
 }
